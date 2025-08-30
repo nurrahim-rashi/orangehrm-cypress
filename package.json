@@ -1,0 +1,16 @@
+{
+  "name": "orangehrm-cypress-automation",
+  "version": "1.0.0",
+  "description": "Automation tests for OrangeHRM demo with Cypress",
+  "scripts": {
+    "test": "cypress run",
+    "test:login": "cypress run --spec cypress/e2e/orangehrm/login.cy.js",
+    "test:forgot-password": "cypress run --spec cypress/e2e/orangehrm/forgotPassword.cy.js",
+    "test:dashboard": "cypress run --spec cypress/e2e/orangehrm/dashboard.cy.js",
+    "test:all": "cypress run --spec \"cypress/e2e/orangehrm/*.cy.js\"",
+    "cy:open": "cypress open"
+  },
+  "devDependencies": {
+    "cypress": "^13.17.0"
+  }
+}

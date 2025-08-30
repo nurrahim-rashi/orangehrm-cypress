@@ -1,0 +1,12 @@
+{
+  "directoryData": {
+    "employees": [
+      {
+        "name": "John Doe",
+        "jobTitle": "Software Engineer",
+        "unit": "Engineering",
+        "location": "HQ"
+      }
+    ]
+  }
+}
